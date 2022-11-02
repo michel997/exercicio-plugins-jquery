@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section {
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    margin-bottom: 16px;
+}
+
+.formulario label {
+    font-weight: bold;
+}
+
+.formulario input {
+    width: 100%;
+    padding: 8px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: lightseagreen;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+}
